@@ -16,7 +16,7 @@ public class Board extends Method {
         capturedPieces = new ArrayList<>();
     }
 
-    Board(ArrayList<Move> moves){
+    public Board(ArrayList<Move> moves){
         this.setMoves(moves);
         movesPerformed = new Stack<>();
         finalPositions = buildFinalPosition();
